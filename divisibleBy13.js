@@ -4,8 +4,7 @@
  */
 function countEvens(nums) {
     let totalEvens = 0;
-    for (let i = 0; i < nums.length; i++) {
-        let num = nums[i];
+    for (const num of nums) {
         if (num % 13 === 0){
             totalEvens += 1;
         }
@@ -14,3 +13,4 @@ function countEvens(nums) {
 }
 let nums = countEvens([13, 26, 39, 49, 56, 62, 74, 85, 99, 100]);
 console.log(nums);
+
