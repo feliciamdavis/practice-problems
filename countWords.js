@@ -1,5 +1,5 @@
 /**
- * print how many wors are in a given string of text
+ * print how many words are in a given string of text
  * @param {string} str
  */
 function countWords(str) {
