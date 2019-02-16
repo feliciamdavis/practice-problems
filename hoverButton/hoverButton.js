@@ -1,5 +1,5 @@
 /**
- * Make page with an animated button that shows a "hello world" alert pop up when clicked
+ * Make page with a button that shows a "hello world" alert pop up when clicked
  */
 
 const button = document.querySelector('button');
