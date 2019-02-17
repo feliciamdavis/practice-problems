@@ -1,0 +1,12 @@
+button {
+    color: blue;
+    transition: all 0.5s;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+button:hover {
+    background-color: black;
+    color: green;
+}
