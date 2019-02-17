@@ -1,6 +1,7 @@
 button {
     color: blue;
     transition: all 0.5s;
+    transition-delay: 0.3s;
     position: absolute;
     top: 0px;
     left: 0px;
