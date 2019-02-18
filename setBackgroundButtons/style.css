@@ -1,0 +1,24 @@
+button#purple {
+    color: purple;
+    background-color: rgb(250, 195, 250);
+}
+
+button#green {
+    color: green;
+    background-color: rgb(222, 252, 222);
+}
+
+button#blue {
+    color: blue;
+    background-color: rgb(202, 202, 248);
+}
+
+button#red {
+    color: red;
+    background-color: rgb(252, 182, 182);
+}
+
+button#orange {
+    color: orange;
+    background-color: rgb(253, 234, 198);
+}
