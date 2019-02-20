@@ -16,4 +16,4 @@ function isPalindrome(str) {
     return true;
 }
 
-console.log (isPalindrome('A Man, A Plan, A Canal: Panama!'));
+console.log(isPalindrome('A Man, A Plan, A Canal: Panama!'));
