@@ -25,7 +25,8 @@
         "quotes": [2, "single", "avoid-escape"],
         "indent": ["error", 4, {"SwitchCase": 1}],
         "no-console": "off",
-        "semi": ["error", "always"]
+        "semi": ["error", "always"],
+        "prefer-const": ["error"]
     },
     "globals": {
     }
