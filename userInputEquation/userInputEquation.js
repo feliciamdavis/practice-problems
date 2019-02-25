@@ -1,3 +1,8 @@
+/**
+ * Make a page with two inputs, an operator selector(+,-,*,/) and a button that
+ * calculates the value.
+ */
+
 const number1El = document.getElementById('number1');
 const number2El = document.getElementById('number2');
 const totalEl = document.getElementById('total');
