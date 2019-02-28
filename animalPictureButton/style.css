@@ -1,0 +1,52 @@
+#picture {
+    width: 500px;
+    height: 500px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 10px;
+}
+
+.bird {
+    background-image: url('images/bird.jpg');
+}
+
+.corgi {
+    background-image: url('images/corgi.jpg');
+}
+
+.fawn {
+    background-image: url('images/fawn.jpg');
+}
+
+.ferret {
+    background-image: url('images/ferret.jpg');
+}
+
+.hedgehog {
+    background-image: url('images/hedgehog.jpg');
+}
+
+.kitten {
+    background-image: url('images/kitten.jpg');
+}
+
+.otter {
+    background-image: url('images/otter.jpg');
+}
+
+.puppies {
+    background-image: url('images/puppies.jpg');
+}
+
+.rabbit {
+    background-image: url('images/rabbit.jpg');
+}
+
+.sloth {
+    background-image: url('images/sloth.jpg');
+}
+
+.tiger {
+    background-image: url('images/tiger.jpg');
+}
