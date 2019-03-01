@@ -1,0 +1,78 @@
+#buttons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#lever {
+    margin-top: 20px;
+}
+
+#machine {
+    display: flex;
+}
+
+#img1 {
+    width: 150px;
+    height: 150px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 10px;
+    flex-grow: 1;
+    transition: background 0.3s linear;
+}
+
+#img2 {
+    width: 150px;
+    height: 150px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 10px;
+    flex-grow: 1;
+    transition: background 0.3s linear;
+}
+
+#img3 {
+    width: 150px;
+    height: 150px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 10px;
+    flex-grow: 1;
+    transition: background 0.3s linear;
+}
+
+.apple {
+    background-image: url('images/apple.jpg');
+}
+
+.avocado {
+    background-image: url('images/avocado.jpg');
+}
+
+.blackberry {
+    background-image: url('images/blackberry.jpg');
+}
+
+.blueberry {
+    background-image: url('images/blueberry.jpg');
+}
+
+.cherry {
+    background-image: url('images/cherry.jpg');
+}
+
+.lime {
+    background-image: url('images/lime.jpg');
+}
+
+.pineapple {
+    background-image: url('images/pineapple.jpg');
+}
+
+.strawberry {
+    background-image: url('images/strawberry.jpg');
+}
+
