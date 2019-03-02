@@ -1,14 +1,27 @@
+#coinCount {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
+
 #buttons {
     display: flex;
     justify-content: flex-end;
 }
 
-#lever {
+#lever #reset{
     margin-top: 20px;
 }
 
 #machine {
     display: flex;
+    border-style: solid;
+    border-width: 5px;
+    border-color: gray;
 }
 
 #img1 {
@@ -17,7 +30,6 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    margin-top: 10px;
     flex-grow: 1;
     transition: background 0.3s linear;
 }
@@ -28,9 +40,11 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    margin-top: 10px;
     flex-grow: 1;
     transition: background 0.3s linear;
+    border-style: none solid none solid;
+    border-width: 2px;
+    border-color: gray;
 }
 
 #img3 {
@@ -39,7 +53,6 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    margin-top: 10px;
     flex-grow: 1;
     transition: background 0.3s linear;
 }

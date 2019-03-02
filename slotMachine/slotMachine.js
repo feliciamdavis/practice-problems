@@ -12,12 +12,22 @@ const images = [
     'pineapple',
 ];
 
+const startingCoins = 10;
+
+const coinCountEl = document.getElementById('coinCount');
 const image1El = document.getElementById('img1');
 const image2El = document.getElementById('img2');
 const image3El = document.getElementById('img3');
-const buttonEl = document.querySelector('button');
+const leverEl = document.getElementById('lever');
+const resetEl = document.getElementById('reset');
 
-buttonEl.addEventListener('click', function () {
+coinCountEl.innerHTML = startingCoins;
+
+resetEl.addEventListener('click', function() {
+
+});
+
+leverEl.addEventListener('click', function () {
     const imageAt1 = Math.floor(Math.random() * images.length);
     const imageAt2 = Math.floor(Math.random() * images.length);
     const imageAt3 = Math.floor(Math.random() * images.length);
