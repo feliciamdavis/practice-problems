@@ -3,3 +3,9 @@ button {
     margin-bottom: 20px;
 }
 
+#changedText {
+    font-family: sans-serif;
+    font-size: 50px;
+    color: darkcyan;
+}
+

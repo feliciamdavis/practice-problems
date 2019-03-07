@@ -2,8 +2,11 @@
  * Make a webpage that changes the user text color, size, and font
  */
 
-const userTextEl = document.getElementById('userInput');
+const userInputEl = document.getElementById('userInput');
+const changedTextEl = document.getElementById('changedText');
 
-function changeText(){
-
-}
+const buttonEl = document.querySelector('button');
+buttonEl.addEventListener('click', function() {
+    const userInput = userInputEl.value;
+    changedTextEl.innerHTML = userInput;
+});
