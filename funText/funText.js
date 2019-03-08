@@ -4,9 +4,10 @@
 
 const userInputEl = document.getElementById('userInput');
 const changedTextEl = document.getElementById('changedText');
-
-const buttonEl = document.querySelector('button');
-buttonEl.addEventListener('click', function() {
+const dropdownEl = document.getElementById('dropdown');
+dropdownEl.addEventListener('change', function() {
     const userInput = userInputEl.value;
+    const dropdownValue = dropdownEl.value;
+    changedTextEl.style.color = dropdownValue;
     changedTextEl.innerHTML = userInput;
 });
