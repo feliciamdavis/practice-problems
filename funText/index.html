@@ -11,8 +11,8 @@
 <body>
     <div>Text to Change: <input type="text" id="userInput"></div>
 
-    <select id="dropdown">
-        <option>Please select a color:</option>
+    <select id="colors">
+        <option>Select a color:</option>
         <option value="red">Red</option>
         <option value="orange">Orange</option>
         <option value="yellow">Yellow</option>
@@ -20,6 +20,28 @@
         <option value="blue">Blue</option>
         <option value="purple">Purple</option>
     </select>
+
+    <select id="fonts">
+        <option>Select a font:</option>
+        <option value="Arial, Helvetica, sans-serif">Arial</option>
+        <option value="Cambria, Cochin, Georgia, Times, 'Times New Roman', serif">Cambria</option>
+        <option value="'Courier New', Courier, monospace">Courier</option>
+        <option value="'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif">Lucida Sans</option>
+        <option value="Verdana, Geneva, Tahoma, sans-serif">Verdana</option>
+    </select>
+
+    <select id="size">
+        <option>Select a size:</option>
+        <option value="10px">10px</option>
+        <option value="20px">20px</option>
+        <option value="30px">30px</option>
+        <option value="40px">40px</option>
+        <option value="50px">50px</option>
+    </select>
+
+    <button>
+        Make Changes
+    </button>
 
     <div id="changedText"></div>
     <script type="text/javascript" src="funText.js"></script>
