@@ -22,14 +22,12 @@ const fortunes = [
 
 
 function fortune() {
-    let randomFortune = fortunes[Math.floor(Math.random() * (fortunes.length))];
+    const randomFortune = fortunes[Math.floor(Math.random() * (fortunes.length))];
     return randomFortune;
 }
 
 const buttonEl = document.querySelector('button');
 buttonEl.addEventListener('click', function () {
     const fortuneEl = document.getElementById('fortune');
-    const fortuneAt = Math.floor(Math.random() * fortunes.length);
-    const fortune = fortunes[fortuneAt];
-    fortuneEl.className = fortune;
+    fortuneEl.innerText = fortune();
 });
