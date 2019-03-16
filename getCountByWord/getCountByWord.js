@@ -19,4 +19,17 @@ function getCountByWords(str) {
     return countByWord;
 }
 
-console.log(getCountByWords('A Man, A Plan, A Canal: Panama!'));
+const userInputEl = document.getElementById('userInput');
+const wordCountEl = document.getElementById('wordCount');
+
+const buttonEl = document.querySelector('button');
+buttonEl.addEventListener('click', function() {
+    const userInput = userInputEl.value;
+    const countByWord = getCountByWords(userInput);
+    let string = '';
+    for (const word of countByWord.keys()) {
+        const count = countByWord.get(word);
+        string += `${word} : ${count} \n`;
+    }
+    wordCountEl.innerText = string;
+});
