@@ -4,8 +4,7 @@
  */
 function countEvens(nums) {
     let totalEvens = 0;
-    for (let i = 0; i < nums.length; i++) {
-        let num = nums[i];
+    for (const num of nums) {
         if (num % 2 === 0){
             totalEvens += 1;
         }
@@ -13,12 +12,19 @@ function countEvens(nums) {
     return totalEvens;
 }
 
-const sentenceEl = document.getElementById('userInput');
+const userInputEl = document.getElementById('userInput');
 const answerEl = document.getElementById('answer');
 
 const buttonEl = document.querySelector('button');
 buttonEl.addEventListener('click', function() {
-    const userInput = sentenceEl.value;
-    const isEven = countEvens(userInput);
-    answerEl.innerHTML = isEven;
+    const userInput = userInputEl.value.trim();
+
+    let evensCount = 0;
+    if (userInput.length > 0) {
+        const userInputStrings = userInput.split(',');
+        const userInputNumbers = userInputStrings.map((s) => parseFloat(s));
+        evensCount = countEvens(userInputNumbers);
+    }
+
+    answerEl.innerHTML = evensCount;
 });
