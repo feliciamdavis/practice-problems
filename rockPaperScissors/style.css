@@ -1,0 +1,23 @@
+.rock{
+    background-image: url('rockComputer.jpg');
+}
+
+.paper{
+    background-image: url('paperComputer.jpg');
+}
+
+.scissors{
+    background-image: url('scissorsComputer.jpg');
+}
+
+.rockComp{
+    background-image: url('rockComputer.jpg');
+}
+
+.paperComp{
+    background-image: url('paperComputer.jpg');
+}
+
+.scissorsComp{
+    background-image: url('scissorsComputer.jpg');
+}
