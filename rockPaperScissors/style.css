@@ -1,23 +1,36 @@
-.rock{
+#userMove, #compMove {
+    flex: 1;
+    height: 300px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 10px;
+}
+
+#box {
+    display: flex;
+}
+
+.rock {
+    background-image: url('rock.jpg');
+}
+
+.paper {
+    background-image: url('paper.jpg');
+}
+
+.scissors {
+    background-image: url('scissors.jpg');
+}
+
+.rockComp {
     background-image: url('rockComputer.jpg');
 }
 
-.paper{
+.paperComp {
     background-image: url('paperComputer.jpg');
 }
 
-.scissors{
-    background-image: url('scissorsComputer.jpg');
-}
-
-.rockComp{
-    background-image: url('rockComputer.jpg');
-}
-
-.paperComp{
-    background-image: url('paperComputer.jpg');
-}
-
-.scissorsComp{
+.scissorsComp {
     background-image: url('scissorsComputer.jpg');
 }

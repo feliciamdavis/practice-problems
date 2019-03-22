@@ -2,12 +2,6 @@
  * Make a Rock Paper Scissors game for user to play against computer
  */
 
-const userMoveImgs = [
-    'rock',
-    'paper',
-    'scissors'
-];
-
 const compMoveImgs = [
     'rockComp',
     'paperComp',
@@ -16,10 +10,14 @@ const compMoveImgs = [
 
 const buttonEl = document.querySelector('button');
 buttonEl.addEventListener('click', function () {
+    // User move
+    const userMoveEl = document.getElementById('userMove');
+    const movesEl = document.getElementById('moves');
+    userMoveEl.className = movesEl.value;
 
-
+    // Computer move
     const compMoveEl = document.getElementById('compMove');
     const compMoveAt = Math.floor(Math.random() * compMoveImgs.length);
-    const compMove = compMoveImgs[compMoveAt];
-    compMoveEl.className = compMove;
+    const compMoveImg = compMoveImgs[compMoveAt];
+    compMoveEl.className = compMoveImg;
 });
