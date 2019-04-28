@@ -2,3 +2,37 @@
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+#img {
+    width: 150px;
+    height: 150px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    flex-grow: 1;
+    transition: background 0.3s linear;
+}
+
+.die1 {
+    background-image: url('die1.jpg');
+}
+
+.die2 {
+    background-image: url('die2.jpg');
+}
+
+.die3 {
+    background-image: url('die3.jpg');
+}
+
+.die4 {
+    background-image: url('die4.jpg');
+}
+
+.die5 {
+    background-image: url('die5.jpg');
+}
+
+.die6 {
+    background-image: url('die6.jpg');
+}
