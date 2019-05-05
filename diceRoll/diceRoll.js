@@ -1,12 +1,12 @@
-/**
- * print random number 1-6 (e.g., emulate rolling a 6-sided die)
- */
-
 const buttonEl = document.querySelector('button');
-const imgEl = document.getElementById('img');
 
 buttonEl.addEventListener('click', function () {
-    const roll = Math.floor(Math.random() * 6) + 1;
-    const img = `die${roll}`;
-    imgEl.className = img;
+    for (let index = 1; index <= 5; index++) {
+        const idString = `img${index}`;
+        const imgEl = document.getElementById(idString);
+        const dieNumber = Math.floor(Math.random() * 6) + 1;
+        const imgClass = `die die${dieNumber}`;
+        imgEl.className = imgClass;
+    }
+
 });
